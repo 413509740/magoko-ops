@@ -9,16 +9,20 @@
     <groupId>magoko</groupId>
     <artifactId>magoko-ops-build</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>build/build-tool/pom.xml</relativePath>
+    <relativePath>magoko-ops-build/pom.xml</relativePath>
   </parent>
 
   <artifactId>magoko-ops</artifactId>
   <packaging>pom</packaging>
 
   <modules>
-    <module>build/bom</module>
-    <module>build/build-tool</module>
-    <module>build/build-parent</module>
+    <module>magoko-ops-bom</module>
+    <module>magoko-ops-build</module>
+    <module>magoko-ops-parent</module>
+    <module>magoko-ops-client</module>
+    <module>magoko-ops-client-starter</module>
+    <module>magoko-ops-server</module>
+    <module>magoko-ops-server-starter</module>
   </modules>
 
 </project>

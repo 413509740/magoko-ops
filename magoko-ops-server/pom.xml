@@ -7,12 +7,19 @@
 
   <parent>
     <groupId>magoko</groupId>
-    <artifactId>magoko-ops</artifactId>
+    <artifactId>magoko-ops-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>../../pom.xml</relativePath>
+    <relativePath>../magoko-ops-parent/pom.xml</relativePath>
   </parent>
 
-  <artifactId>magoko-ops-bom</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>magoko-ops-server</artifactId>
+  <packaging>jar</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter</artifactId>
+    </dependency>
+  </dependencies>
 
 </project>
